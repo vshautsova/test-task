@@ -1,0 +1,6 @@
+To run an app via OpenWebStart the following is required:
+1. Running tomcat.
+2. Execute `mvn clean package` to build the application.
+3. Execute `mvn tomcat7:deploy` to deploy the application.
+4. Access the app via `http://localhost:8080/MainApp/` and by clicking on the link jnlp file will be downloaded.
+5. Open `MainApp.jnlp` via OpenWebStart and trust certificates, so then Desktop App is available for testing.

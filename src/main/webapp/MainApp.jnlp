@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:8080/MainApp/">
+    <information>
+        <title>MainApp</title>
+        <vendor>A Company</vendor>
+        <description>A simple Java desktop application.</description>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <j2se version="17" permissions="all-permissions"/>
+        <jar href="MainApp-1.0-SNAPSHOT.jar"/>
+    </resources>
+    <application-desc main-class="com.epam.rssc.alc.MainApp"/>
+</jnlp>
