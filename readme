@@ -1,3 +1,8 @@
+Task:
+Develop Java desktop application with a small window that contains a single button and a text field. On the button click a message "Hello from <system user>, <current time>" must appear in the text field.
+The application must be provisioned using Java Web Start technology (OpenWebStart) from the local http endpoint (Tomcat web server). 
+The application must be developed on Java11+ and signed using jarsigner.
+
 To run an app via OpenWebStart the following is required:
 1. Running tomcat.
 2. Execute `mvn clean package` to build the application.
