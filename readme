@@ -4,7 +4,7 @@ The application must be provisioned using Java Web Start technology (OpenWebStar
 The application must be developed on Java11+ and signed using jarsigner.
 
 To run an app via OpenWebStart the following is required:
-1. Running tomcat.
+1. Running tomcat and Java 17.
 2. Execute `mvn clean package` to build the application.
 3. Execute `mvn tomcat7:deploy` to deploy the application.
 4. Access the app via `http://localhost:8080/MainApp/` and by clicking on the link jnlp file will be downloaded.
